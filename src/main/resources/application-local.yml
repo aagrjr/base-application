@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://customer-user:customer-password@localhost:27017/?authSource=customer
+      database: customer
