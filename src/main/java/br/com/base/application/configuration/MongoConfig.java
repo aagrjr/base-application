@@ -19,7 +19,7 @@ import org.springframework.data.mongodb.core.convert.MongoCustomConversions;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
 @Configuration
-@EnableMongoRepositories("br.com.portfolio.repository")
+@EnableMongoRepositories("br.com.base.application.repository")
 @EnableMongoAuditing(dateTimeProviderRef = "offsetDateTimeProvider")
 @Slf4j
 public class MongoConfig extends AbstractMongoClientConfiguration {
